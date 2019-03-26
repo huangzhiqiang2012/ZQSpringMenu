@@ -9,36 +9,36 @@
 import UIKit
 
 // MARK: 菜单类型,即菜单显示的样式
-public enum ZQSpringMenuStyle {
-    case normal               ///< 图片
-    case title                ///< 文字
-    case image                ///< 图片
-    case custom               ///< 自定义视图
+public enum ZQSpringMenuStyle : Int {
+    case normal     = 0          ///< 图片
+    case title      = 1          ///< 文字
+    case image      = 2          ///< 图片
+    case custom     = 3          ///< 自定义视图
 }
 
 // MARK: 菜单弹出方向
-public enum ZQSpringMenuBloomDirection {
-    case top                 ///< 顶部
-    case left                ///< 左边
-    case bottom              ///< 底部
-    case right               ///< 右边
-    case topLeft             ///< 上左
-    case topRight            ///< 上右
-    case bottomLeft          ///< 下左
-    case bottomRight         ///< 下右
+public enum ZQSpringMenuBloomDirection : Int {
+    case top            = 0     ///< 顶部
+    case left           = 1     ///< 左边
+    case bottom         = 2     ///< 底部
+    case right          = 3     ///< 右边
+    case topLeft        = 4     ///< 上左
+    case topRight       = 5     ///< 上右
+    case bottomLeft     = 6     ///< 下左
+    case bottomRight    = 7     ///< 下右
 }
 
 // MARK: 菜单弹出顺序
-public enum ZQSpringMenuBloomOrder {
-    case sameTime            ///< 同时
-    case leftToRight         ///< 从左到右
-    case rightToLeft         ///< 从右到左
+public enum ZQSpringMenuBloomOrder : Int {
+    case sameTime        = 0    ///< 同时
+    case leftToRight     = 1    ///< 从左到右
+    case rightToLeft     = 2    ///< 从右到左
 }
 
 // MARK: 菜单旋转方向
-public enum ZQSpringMenuRotationDirection {
-    case right              ///< 右旋
-    case left               ///< 左旋
+public enum ZQSpringMenuRotationDirection : Int {
+    case right         = 0     ///< 右旋
+    case left          = 1     ///< 左旋
 }
 
 // MARK: 配置信息

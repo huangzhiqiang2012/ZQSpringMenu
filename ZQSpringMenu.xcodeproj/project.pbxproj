@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95FAC4352244E4A4001F3D1D /* ZQSpringMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FAC4342244E4A4001F3D1D /* ZQSpringMenuController.swift */; };
+		95F9BC0F224A297400462386 /* ZQShowSpringMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F9BC0E224A297400462386 /* ZQShowSpringMenuController.swift */; };
+		95FA038F2248E07400C012EB /* ZQSpringMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA038D2248E07400C012EB /* ZQSpringMenuController.swift */; };
+		95FA03902248E07400C012EB /* ZQSpringMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95FA038E2248E07400C012EB /* ZQSpringMenuController.xib */; };
 		95FB2D6C2243692100B2BF18 /* ZQAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FB2D6B2243692100B2BF18 /* ZQAppDelegate.swift */; };
-		95FB2D6E2243692100B2BF18 /* ZQRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FB2D6D2243692100B2BF18 /* ZQRootViewController.swift */; };
-		95FB2D712243692100B2BF18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FB2D6F2243692100B2BF18 /* Main.storyboard */; };
 		95FB2D732243692200B2BF18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FB2D722243692200B2BF18 /* Assets.xcassets */; };
 		95FB2D762243692200B2BF18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FB2D742243692200B2BF18 /* LaunchScreen.storyboard */; };
 		95FB2D8622436A8800B2BF18 /* ZQSpringMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 95FB2D8422436A8800B2BF18 /* ZQSpringMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,11 +45,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		95FAC4342244E4A4001F3D1D /* ZQSpringMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQSpringMenuController.swift; sourceTree = "<group>"; };
+		95F9BC0E224A297400462386 /* ZQShowSpringMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQShowSpringMenuController.swift; sourceTree = "<group>"; };
+		95FA038D2248E07400C012EB /* ZQSpringMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQSpringMenuController.swift; sourceTree = "<group>"; };
+		95FA038E2248E07400C012EB /* ZQSpringMenuController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZQSpringMenuController.xib; sourceTree = "<group>"; };
 		95FB2D682243692100B2BF18 /* ZQSpringMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQSpringMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FB2D6B2243692100B2BF18 /* ZQAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQAppDelegate.swift; sourceTree = "<group>"; };
-		95FB2D6D2243692100B2BF18 /* ZQRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZQRootViewController.swift; sourceTree = "<group>"; };
-		95FB2D702243692100B2BF18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95FB2D722243692200B2BF18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95FB2D752243692200B2BF18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95FB2D772243692200B2BF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,12 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				95FB2D6B2243692100B2BF18 /* ZQAppDelegate.swift */,
-				95FB2D6D2243692100B2BF18 /* ZQRootViewController.swift */,
-				95FB2D6F2243692100B2BF18 /* Main.storyboard */,
 				95FB2D722243692200B2BF18 /* Assets.xcassets */,
 				95FB2D742243692200B2BF18 /* LaunchScreen.storyboard */,
 				95FB2D772243692200B2BF18 /* Info.plist */,
-				95FAC4342244E4A4001F3D1D /* ZQSpringMenuController.swift */,
+				95FA038D2248E07400C012EB /* ZQSpringMenuController.swift */,
+				95FA038E2248E07400C012EB /* ZQSpringMenuController.xib */,
+				95F9BC0E224A297400462386 /* ZQShowSpringMenuController.swift */,
 			);
 			path = ZQSpringMenuDemo;
 			sourceTree = "<group>";
@@ -219,7 +219,7 @@
 			files = (
 				95FB2D762243692200B2BF18 /* LaunchScreen.storyboard in Resources */,
 				95FB2D732243692200B2BF18 /* Assets.xcassets in Resources */,
-				95FB2D712243692100B2BF18 /* Main.storyboard in Resources */,
+				95FA03902248E07400C012EB /* ZQSpringMenuController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,9 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95FB2D6E2243692100B2BF18 /* ZQRootViewController.swift in Sources */,
 				95FB2D6C2243692100B2BF18 /* ZQAppDelegate.swift in Sources */,
-				95FAC4352244E4A4001F3D1D /* ZQSpringMenuController.swift in Sources */,
+				95FA038F2248E07400C012EB /* ZQSpringMenuController.swift in Sources */,
+				95F9BC0F224A297400462386 /* ZQShowSpringMenuController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,14 +263,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		95FB2D6F2243692100B2BF18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				95FB2D702243692100B2BF18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		95FB2D742243692200B2BF18 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
