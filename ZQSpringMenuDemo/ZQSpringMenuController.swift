@@ -78,11 +78,11 @@ extension ZQSpringMenuController {
             
         case .title:
             config.itemsArr = [
-                NSAttributedString(string: "首页", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor : UIColor.blue]),
-                NSAttributedString(string: "音乐", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor : UIColor.blue]),
-                NSAttributedString(string: "阅读", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor : UIColor.blue]),
-                NSAttributedString(string: "运动", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor : UIColor.blue]),
-                NSAttributedString(string: "学习", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor : UIColor.blue]),
+                NSAttributedString(string: "首页", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor : UIColor.white]),
+                NSAttributedString(string: "音乐", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor : UIColor.white]),
+                NSAttributedString(string: "阅读", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor : UIColor.white]),
+                NSAttributedString(string: "运动", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor : UIColor.white]),
+                NSAttributedString(string: "学习", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor : UIColor.white]),
             ]
             
         case .custom:
